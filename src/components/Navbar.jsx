@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li className='p-4'>Company</li>
                 <li className='p-4'>Resources</li>
                 <li className='p-4'>About</li>
-                <li className='p-4'>Contact</li>
+                <li className='p-4'>Projects</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <li className='p-4 border-b border-gray-600'>Company</li>
                     <li className='p-4 border-b border-gray-600'>Resources</li>
                     <li className='p-4 border-b border-gray-600'>About</li>
-                    <li className='p-4'>Contact</li>
+                    <li className='p-4'>Projects</li>
                 </ul>
             </div>
         </div>

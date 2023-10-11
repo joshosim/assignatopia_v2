@@ -12,11 +12,6 @@ function App() {
   return (
     <div>
       <Course />
-      {/* <Navbar />
-      <Hero />
-      <Analytics />
-      <Newsletter />
-      <Cards /> */}
       <CourseContent />
       <Last />
     </div>

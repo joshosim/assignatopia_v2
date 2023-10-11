@@ -4,7 +4,7 @@ const Last = () => {
     return (
         <div className='w-full text-green-500 flex justify-center items-center py-8'>
             <div>
-                <p className='font-bold'>Copyright &copy; teamjojocode25 2023.</p>
+                <p className='font-bold'>Copyright &copy; Teamjojocode | 2023.</p>
             </div>
         </div>
     )

@@ -23,7 +23,7 @@ const NavBar = () => {
                     <Link to='/contact'>
                         <li className='hover:bg-green-500 hover:p-3 hover:text-gray-500 transition-all ease-in-out duration-500 cursor-pointer hover:rounded-md'>Contact</li></Link>
                 </ul>
-                <div className={nav ? 'bg-black flex flex-col gap-8 md:hidden w-full h-screen absolute left-0 top-0 py-4 px-4 text-center' : 'hidden'}>
+                <div className={nav ? 'bg-black flex flex-col gap-8 md:hidden w-full h-[200vh] absolute left-0 top-0 py-4 px-4 text-center' : 'hidden'}>
                     <div className='flex justify-between items-center'>
                         <h1 className='text-3xl hover:text-gray-200 cursor-pointer text-white'>TJJC</h1>
                         <div className='block md:hidden' onClick={tapMenuBar} >

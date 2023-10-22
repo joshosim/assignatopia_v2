@@ -8,7 +8,7 @@ const CourseInformation = () => {
     const pId = params.id - 1;
     return (
         <div className='w-full p-4 text-white'>
-            <div>
+            <div className=''>
                 <h1 className='text-2xl font-bold py-8 uppercase'>{data[pId].title}</h1>
                 <img className='w-full  object-cover' src={data[pId].imagelink} alt={data[pId].title} />
                 <p className='py-2 font-bold text-xl text-green-500'>{data[pId].category}</p>

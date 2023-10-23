@@ -8,7 +8,7 @@ const CourseInformation = () => {
     const pId = params.id - 1;
     return (
         <div className='w-full p-4 text-white'>
-            <div className=''>
+            <div className='my-4'>
                 <h1 className='text-2xl font-bold py-8 uppercase'>{data[pId].title}</h1>
                 <img className='w-full  object-cover' src={data[pId].imagelink} alt={data[pId].title} />
                 <p className='py-2 font-bold text-xl text-green-500'>{data[pId].category}</p>
@@ -28,7 +28,7 @@ const CourseInformation = () => {
                     <p className='line-through'>{data[pId].price1}</p>
                     <p>{data[pId].price2}</p>
                 </div>
-                <Link to={data[pId].link}><button className='w-[200px] text-xl my-3 mx-auto bg-white hover:bg-green-100 text-black font-bold rounded-xl py-4'>Get this Course</button></Link>
+                <Link to={`/payment-page`} state={{ fromInfo: { data } }}><button className='w-[200px] text-xl my-3 mx-auto bg-white hover:bg-green-100 text-black font-bold rounded-xl py-4'>Get this Course</button></Link>
             </div>
         </div>
     )

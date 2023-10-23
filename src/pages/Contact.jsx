@@ -15,6 +15,7 @@ export const Contact = () => {
                 alert('Error! Email has not been sent!')
 
             });
+        e.target.reset();
     };
     return (
         <div className=' px-6 py-8'>

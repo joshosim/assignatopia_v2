@@ -10,7 +10,7 @@ const NavBar = () => {
         setNav(!nav);
     }
     return (
-        <div className='w-full p-4 text-white font-bold relative'>
+        <div className='w-full p-4 text-white font-bold relative border-b'>
             <div className='flex justify-between items-center'>
                 <h1 className='text-3xl hover:text-gray-200 cursor-pointer'>TJJC</h1>
                 <ul className='md:flex justify-between gap-16 hidden'>

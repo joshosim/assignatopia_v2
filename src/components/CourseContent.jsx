@@ -3,7 +3,16 @@ import { AiOutlineSearch, AiOutlineGlobal, AiOutlineLaptop } from 'react-icons/a
 import { Link } from 'react-router-dom'
 import { data } from '../api/data'
 
+
+
 const CourseContent = () => {
+    const getApi = async () => {
+        const url = 'https://fakestoreapi.com/products';
+        fetch(url)
+            .then(res => res.json())
+            .then(json => console.log(json))
+    }
+    getApi();
     return (
         <div className='bg-white w-full p-8'>
             <div className='flex md:justify-between flex-col md:flex-row items-center'>

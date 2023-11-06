@@ -6,13 +6,7 @@ const Services = () => {
         pic1: 'https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         pic2: 'https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     }
-    const getApi = async () => {
-        const url = 'https://fakestoreapi.com/products';
-        fetch(url)
-            .then(res => res.json())
-            .then(json => console.log(json))
-    }
-    getApi();
+
     //9584f3fb4b244968abad9c2cf049011d-key
     return (
         <div className='text-black relative'>

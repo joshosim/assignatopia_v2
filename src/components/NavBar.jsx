@@ -17,7 +17,7 @@ const NavBar = () => {
                     <Link to='/'>
                         <li className='hover:text-gray-300 cursor-pointer '>Home</li></Link>
                     <Link to='/services'>
-                        <li className='hover:text-gray-300 cursor-pointer '>Services/Blog</li></Link>
+                        <li className='hover:text-gray-300 cursor-pointer '>News/Blog</li></Link>
                     <Link to='/contact'>
                         <li className='hover:text-gray-300 cursor-pointer '>Contact</li></Link>
                 </ul>
@@ -31,7 +31,7 @@ const NavBar = () => {
                         <Link to='/' >
                             <li className='py-4 hover:bg-green-500 hover:p-3 transition-all ease-in-out duration-500 cursor-pointer hover:rounded-md'>Home</li></Link>
                         <Link to='/services' >
-                            <li className='py-4 hover:bg-green-500 hover:p-3 transition-all ease-in-out duration-500 cursor-pointer hover:rounded-md'>Services/Blog</li></Link>
+                            <li className='py-4 hover:bg-green-500 hover:p-3 transition-all ease-in-out duration-500 cursor-pointer hover:rounded-md'>News/Blog</li></Link>
                         <Link to='/contact'>
                             <li className='py-4 hover:bg-green-500 hover:p-3 transition-all ease-in-out duration-500 cursor-pointer hover:rounded-md'>Contact</li></Link>
                     </ul>

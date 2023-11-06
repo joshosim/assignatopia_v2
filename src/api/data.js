@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    title: "Unity 3D Game Programming",
+    title: "How to make money from your Youtube",
     price1: "6000",
     price2: "1500",
     category: "Development",
@@ -21,7 +21,7 @@ export const data = [
   },
   {
     id: 2,
-    title: "Statistics and Excel",
+    title: "How to make money from fiverr",
     price1: "3000",
     price2: "1000",
     category: "IT & Software",
@@ -38,7 +38,7 @@ export const data = [
   },
   {
     id: 3,
-    title: "Excel for Marketers",
+    title: "How to dive into the world of Forex and make money",
     price1: "5500",
     price2: "1500",
     category: "Office Productivity",

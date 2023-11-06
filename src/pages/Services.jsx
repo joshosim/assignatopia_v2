@@ -1,35 +1,70 @@
 import React from 'react'
+import { FaHeart } from 'react-icons/fa'
 
 const Services = () => {
     const images = {
         pic1: 'https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         pic2: 'https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     }
+    const getApi = async () => {
+        const url = 'https://fakestoreapi.com/products';
+        fetch(url)
+            .then(res => res.json())
+            .then(json => console.log(json))
+    }
+    getApi();
+    //9584f3fb4b244968abad9c2cf049011d-key
     return (
-        <div className='text-white'>
-            <div>
-                <div className='p-4'>
-                    <h1 className='font-bold text-xl text-green-500 mb.-2'>Who we are at TeamJoJoCode</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit possimus laudantium et, officia aperiam adipisci ducimus velit eaque unde molestiae atque, laboriosam nostrum magni! Aperiam atque delectus commodi amet autem.
-                    </p>
+        <div className='text-black relative'>
+            <div className='pb-4  bg-[#EFD9CA] '>
+                <h1 className='shadow-lg font-bold text-xs rounded-2xl px-2 py-1 bg-[#000300] text-[#EFD9CA] w-[80px] grid place-content-center absolute top-2 left-4 cursor-pointer'>Blogs</h1>
+                <h1 className='shadow-lg font-bold text-xs rounded-2xl px-2 py-1 bg-[#0003007e] text-[#EFD9CA] w-[80px] grid place-content-center absolute top-2 right-10 cursor-pointer'>Services</h1>
+                <div className=' py-4'>
                 </div>
-                <div className='bg-white text-black py-8'>
-                    <h1 className='font-bold text-center text-2xl mb-2'>What we do</h1>
-                    <div className='grid md:grid-cols-2 px-4 mt-4'>
-                        <img className='object-cover bg-transparent' src={images.pic1} alt="/" />
-                        <div className='flex flex-col justify-center px-4'>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt quae fugiat fugit a ex error, alias nihil explicabo, ipsam hic? Incidunt nihil adipisci explicabo nemo nulla! Vero, quo aliquid!</p>
+                <div className='grid grid-cols-1 md:grid-cols-2'>
+                    <div className='shadow-lg rounded-lg bg-white relative m-4'>
+                        <div className='absolute top-4 right-4 flex flex-col gap-0 items-center'>
+                            <FaHeart size={25} />
+                            <p className='font-bold'>90</p>
+                        </div>
+                        <img src={images.pic2} alt="/" className='rounded-t-lg' />
+                        <div className='p-2'>
+                            <h1 className='font-bold px-2 text-xs md:text-xl'>The Champions are Back</h1>
+                            <p className='px-2 text-xs md:text-xl'>Lorem ipsum dolor sit amet, co ...........</p>
                         </div>
                     </div>
-                </div>
-                <hr />
-                <div className='bg-white text-black py-8'>
-                    <h1 className='font-bold text-center text-2xl text-green-500 mb-2'>What we aim to achieve</h1>
-                    <div className='grid md:grid-cols-2 px-4'>
-                        <div className='flex flex-col justify-center px-4 mb-4'>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt quae fugiat fugit a ex error, alias nihil explicabo, ipsam hic? Incidunt nihil adipisci explicabo nemo nulla! Vero, quo aliquid!</p>
+                    <div className='shadow-lg mx-4 rounded-lg bg-white relative m-4'>
+                        <div className='absolute top-4 right-4 flex flex-col gap-0 items-center'>
+                            <FaHeart size={25} />
+                            <p className='font-bold'>90</p>
                         </div>
-                        <img className='object-cover bg-transparent' src={images.pic2} alt="/" />
+                        <img src={images.pic2} alt="/" className='rounded-t-lg' />
+                        <div className='p-2'>
+                            <h1 className='font-bold px-2 text-xs md:text-xl'>The Champions are Back</h1>
+                            <p className='px-2 text-xs md:text-xl'>Lorem ipsum dolor sit amet, co ...........</p>
+                        </div>
+                    </div>
+                    <div className='shadow-lg mx-4 rounded-lg bg-white relative m-4'>
+                        <div className='absolute top-4 right-4 flex flex-col gap-0 items-center'>
+                            <FaHeart size={25} />
+                            <p className='font-bold'>90</p>
+                        </div>
+                        <img src={images.pic2} alt="/" className='rounded-t-lg' />
+                        <div className='p-2'>
+                            <h1 className='font-bold px-2 text-xs md:text-xl'>The Champions are Back</h1>
+                            <p className='px-2 text-xs md:text-xl'>Lorem ipsum dolor sit amet, co ...........</p>
+                        </div>
+                    </div>
+                    <div className='shadow-lg mx-4 rounded-lg bg-white relative m-4'>
+                        <div className='absolute top-4 right-4 flex flex-col gap-0 items-center'>
+                            <FaHeart size={25} />
+                            <p className='font-bold'>90</p>
+                        </div>
+                        <img src={images.pic2} alt="/" className='rounded-t-lg' />
+                        <div className='p-2'>
+                            <h1 className='font-bold px-2 text-xs md:text-xl'>The Champions are Back</h1>
+                            <p className='px-2 text-xs md:text-xl'>Lorem ipsum dolor sit amet, co ...........</p>
+                        </div>
                     </div>
                 </div>
             </div>

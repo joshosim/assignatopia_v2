@@ -49,7 +49,6 @@ const CourseContent = () => {
                             outerCircleColor="#000000"
                             innerCircleColor="#000330"
                             middleCircleColor="#000300"
-
                         />
                     </div>
                 ) : data.map((item, index) => {

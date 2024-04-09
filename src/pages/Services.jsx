@@ -5,7 +5,7 @@ import { ThreeCircles } from 'react-loader-spinner'
 const Services = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true)
-    const url = 'https://newsapi.org/v2/everything?q=apple&from=2023-11-07&to=2023-11-07&sortBy=popularity&apiKey=9584f3fb4b244968abad9c2cf049011d';
+    const url = 'https://newsapi.org/v2/everything?q=tesla&from=2024-03-09&sortBy=publishedAt&apiKey=9584f3fb4b244968abad9c2cf049011d';
 
     useEffect(() => {
         setTimeout(() => {
